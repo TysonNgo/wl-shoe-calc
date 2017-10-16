@@ -1,0 +1,28 @@
+body{
+	background: #eee;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+#heel{
+	background: white;
+}
+input[type=range][orient=vertical]{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: inherit;
+    margin: 5em 1em;
+}
+input{
+	width: 10em;
+}
+input:read-only{
+	color: gray;
+}
+canvas{
+	padding: 5em;
+}
